@@ -29,7 +29,7 @@ console.log(array);
 
 const arr = [];
 for (let i = 1; i <= 100; i++) {
-  arr.push(i);
+  arr.push(Math.floor(Math.random() * 100));
 }
 console.log(arr);
 //         27) Write a function to get the maximum and minimum values from the previously created array
